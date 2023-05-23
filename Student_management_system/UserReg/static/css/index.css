@@ -1,0 +1,39 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  body{
+
+    font-family: 'Open Sans', sans-serif;
+
+   
+  }
+  table {
+    border-radius: 2px;
+    border-collapse: collapse;
+    margin: 1em;
+background-color: #fff;
+border: #000000 1px solid;
+    
+  }
+ th {
+   
+   border: #000000 1px solid;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+  td {
+    color: #000000;
+    font-weight: 400;
+    padding: 0.65em 1em;
+    border: #000000 1px solid;
+  }
+  tbody tr {
+    transition: background 0.25s ease;
+  }
+ 
